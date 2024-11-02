@@ -1,4 +1,5 @@
 import styles from "../styles/components/footer.module.css";
+import weights from "../styles/fontweights.module.css"
 import React from 'react';
 import Image from 'next/image'
 import {ubuntuSans} from "@/app/fonts";
@@ -10,7 +11,7 @@ import RaldanavaLink from "@/app/components/icons/raldanava";
 
 const Footer = () => {
   return (
-      <footer className={`${styles.footer} ${styles.footerWeight} ${ubuntuSans.className}`}>
+      <footer className={`${styles.footer} ${weights.lightWeight} ${ubuntuSans.className}`}>
           <div className={styles.footerContainer}>
               <div className={styles.logoContainer}>
                   <Image src="/roblogo.svg" alt="Logo" width={32} height={28}

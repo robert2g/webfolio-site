@@ -2,6 +2,7 @@
 
 import React from 'react';
 import styles from '@/app/styles/components/tooltip.module.css'
+import weights from "../styles/fontweights.module.css"
 import {ubuntuSans} from "@/app/fonts";
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -10,7 +11,7 @@ const Tooltip = ({ children, text }) => {
     return (
         <div className={styles.tooltipContainer}>
             {children}
-            <span className={`${ubuntuSans.className} ${styles.tooltip}`}>{text}</span>
+            <span className={`${ubuntuSans.className} ${weights.thinWeight} ${styles.tooltip}`}>{text}</span>
         </div>
     );
 };

@@ -1,6 +1,7 @@
 'use client'
 
 import styles from "../styles/components/header.module.css";
+import weights from "../styles/fontweights.module.css"
 import React from 'react';
 import Image from 'next/image'
 import Link from "next/link";
@@ -11,7 +12,7 @@ const Header = () => {
     const pathname = usePathname()
 
     return (
-        <header className={`${styles.header} ${styles.headerWeight} ${ubuntuSans.className}`}>
+        <header className={`${styles.header} ${weights.regularWeight} ${ubuntuSans.className}`}>
             <nav className={styles.container}>
 
                 <Link href="/" className={styles.logoContainer}>

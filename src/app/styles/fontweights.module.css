@@ -1,0 +1,39 @@
+/* Font CSS Weighting file, probably different for future fonts beyond Ubuntu Sans.*/
+
+/* NOTE: Ubuntu Sans goes up only to 800. (No Black-Bold typeface) */
+
+.thinWeight {
+    font-weight: 100;
+}
+
+.extraLightWeight {
+    font-weight: 200;
+}
+
+.lightWeight {
+    font-weight: 300;
+}
+
+.regularWeight {
+    font-weight: 400;
+}
+
+.mediumWeight {
+    font-weight: 500;
+}
+
+.semiBoldWeight {
+    font-weight: 600;
+}
+
+.boldWeight {
+    font-weight: 700;
+}
+
+.extraBoldWeight {
+    font-weight: 800;
+}
+
+.blackWeight {
+    font-weight: 900;
+}

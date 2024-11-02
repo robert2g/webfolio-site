@@ -1,6 +1,7 @@
 'use client'
 
 import styles from "./styles/page.module.css";
+import weights from "./styles/fontweights.module.css"
 import React, {useEffect, useState} from "react";
 import {ubuntuSans} from "@/app/fonts";
 
@@ -15,7 +16,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={`${styles.frame} page-transition ${isVisible ? 'page-enter' : 'page-exit'}`}>
-          <div className={`${styles.container} ${styles.regularWeight} ${ubuntuSans.className}`}>
+          <div className={`${styles.container} ${weights.regularWeight} ${ubuntuSans.className}`}>
               <p>Welcome to the Home page of my site.</p>
 
               <p>end</p>
