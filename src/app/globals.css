@@ -1,0 +1,23 @@
+* {
+  background-color: #0c0c0e;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+  scrollbar-color: #19191f #0c0c0e;
+}
+
+/* Page Smooth Transition - might remove later, uses states to ease in page changes. */
+.page-transition {
+  opacity: 0;
+
+  transition: opacity 0.2s ease-in-out;
+}
+
+.page-enter {
+  opacity: 1;
+}
+
+.page-exit {
+  opacity: 0;
+}

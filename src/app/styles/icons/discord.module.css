@@ -1,0 +1,17 @@
+/* Styling specifically for the Discord SVG */
+
+.iconFrame .svgIcon {
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.6rem;
+}
+
+.discordIcon {
+    transition: color 0.2s ease-in-out; /* Smooth transition */
+    color: white;
+
+}
+
+.iconFrame:hover .discordIcon {
+    color: #d6224d;
+}

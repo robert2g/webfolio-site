@@ -1,0 +1,17 @@
+/* Styling specifically for the Email SVG */
+
+.iconFrame .svgIcon {
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.6rem;
+}
+
+.emailIcon {
+    transition: color 0.2s ease-in-out; /* Smooth transition */
+    color: white;
+
+}
+
+.iconFrame:hover .emailIcon {
+    color: #d6224d;
+}

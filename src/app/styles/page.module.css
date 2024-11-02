@@ -1,0 +1,37 @@
+.main {
+  min-height: 100vh;
+  background-color: #0c0c0e;
+}
+
+.frame {
+  padding: 20px; 
+  background-color: #0c0c0e;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  background-image: url('../assets/testbkgpattern.png');
+  background-repeat: repeat;
+  animation: moveBackground 600s linear infinite;
+}
+
+.container {
+  max-width: 1600px;
+  width: 100%;
+  border: 1px solid #19191f;
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.regularWeight {
+  font-weight: 300;
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}

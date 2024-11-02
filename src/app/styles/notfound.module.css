@@ -1,0 +1,38 @@
+.main {
+    min-height: 90vh;
+    background-color: #0c0c0e;
+}
+
+.frame {
+    padding: 20px;
+    background-color: #0c0c0e;
+    justify-content: center;
+    display: flex;
+    height: 90vh;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 6px;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.messageHolder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.messageText {
+    font-size: 18px
+}
+
+.lightWeight {
+    font-weight: 300;
+}

@@ -1,0 +1,33 @@
+/* Tooltip Component CSS */
+
+.tooltipContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip {
+    visibility: hidden;
+    max-width: 250px;
+    width: auto;
+    background-color: #0c0c0e95;
+    backdrop-filter: blur(8px);
+    color: #fff;
+    border: 1px solid #19191f;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 130%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.2s;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.tooltipContainer:hover .tooltip {
+    visibility: visible; /* Show tooltip on hover */
+    opacity: 1; /* Make it visible */
+}
