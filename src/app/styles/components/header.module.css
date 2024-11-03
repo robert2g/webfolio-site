@@ -12,6 +12,7 @@
     backdrop-filter: blur(8px);
     padding: 0 2rem;
     border-bottom: 1px solid #19191f;
+    overflow: hidden;
 }
 
 .container {
@@ -31,15 +32,17 @@
     display: flex;
     gap: 0.25rem; /* Switch to 0.5 for straight wordmark. */
     background: transparent;
+    position: relative;
 }
 
-.ralImage, .ralWordmark {
+.robImageWrapper, .robWordmark {
     overflow: visible;
     display: flex;
     align-items: center;  
     justify-content: center;
     width: auto;
     background: transparent;
+    z-index: 0;
 }
 
 .navButtons {
@@ -67,7 +70,7 @@
     color: #d6224d;
 }
 
-.ralImage .svgIcon {
+.robImageWrapper .svgIcon {
     display: flex;
     margin-top: 0.25rem;
     height: 2rem;
@@ -75,13 +78,12 @@
     justify-content: center;
 }
 
-.githubIcon {
+.robImage {
     transition: color 0.2s ease-in-out; /* Smooth transition */
     color: white;
-
 }
 
-.logoContainer:hover .githubIcon {
+.logoContainer:hover .robImage {
     color: #d6224d;
 }
 

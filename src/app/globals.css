@@ -11,7 +11,7 @@
 .page-transition {
   opacity: 0;
 
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.15s ease-in-out;
 }
 
 .page-enter {
@@ -20,4 +20,8 @@
 
 .page-exit {
   opacity: 0;
+}
+
+h1 {
+  font-size: 48px;
 }

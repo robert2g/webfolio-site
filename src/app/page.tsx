@@ -3,7 +3,7 @@
 import styles from "./styles/page.module.css";
 import weights from "./styles/fontweights.module.css"
 import React, {useEffect, useState} from "react";
-import {ubuntuSans} from "@/app/fonts";
+import {ubuntuSans, cutmark} from "@/app/fonts";
 
 export default function Home() {
     const [isVisible, setIsVisible] = useState(false);
@@ -17,6 +17,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={`${styles.frame} page-transition ${isVisible ? 'page-enter' : 'page-exit'}`}>
           <div className={`${styles.container} ${weights.regularWeight} ${ubuntuSans.className}`}>
+              <h1 className={`${cutmark.className} ${weights.boldWeight}`}>Test Header.</h1>
               <p>Welcome to the Home page of my site.</p>
 
               <p>end</p>

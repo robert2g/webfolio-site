@@ -9,6 +9,9 @@
     justify-content: center;
     display: flex;
     height: 90vh;
+    background-image: url('../assets/testbkgpattern.png');
+    background-repeat: repeat;
+    animation: moveBackground 600s linear infinite;
 }
 
 .container {
@@ -19,6 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: transparent;
 }
 
 .messageHolder {
@@ -27,12 +31,23 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    background: transparent;
 }
 
 .messageText {
-    font-size: 18px
+    font-size: 18px;
+    background: transparent;
 }
 
 .lightWeight {
     font-weight: 300;
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
 }
