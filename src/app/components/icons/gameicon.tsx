@@ -2,7 +2,7 @@ import styles from "@/app/styles/icons/github.module.css";
 import Link from "next/link";
 import React from "react";
 
-const RaldanavaLink = () => {
+const OnlineLink = () => {
     return (
         <Link href="/" className={styles.iconFrame}>
             <svg className={styles.svgIcon}
@@ -16,5 +16,5 @@ const RaldanavaLink = () => {
     )
 }
 
-export default RaldanavaLink;
+export default OnlineLink;
 

@@ -7,7 +7,7 @@ import GithubLink from './icons/github';
 import Tooltip from './tooltip'
 import EmailLink from "@/app/components/icons/email";
 import DiscordLink from "@/app/components/icons/discord";
-import RaldanavaLink from "@/app/components/icons/raldanava";
+import OnlineLink from "@/app/components/icons/gameicon";
 
 const Footer = () => {
   return (
@@ -32,7 +32,7 @@ const Footer = () => {
                   </Tooltip>
 
                   <Tooltip text="Online-Facing Site">
-                      <RaldanavaLink/>
+                      <OnlineLink/>
                   </Tooltip>
               </div>
 
