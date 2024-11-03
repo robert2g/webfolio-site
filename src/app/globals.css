@@ -7,6 +7,19 @@
   scrollbar-color: #19191f #0c0c0e;
 }
 
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+
 /* Page Smooth Transition - might remove later, uses states to ease in page changes. */
 .page-transition {
   opacity: 0;
@@ -20,8 +33,4 @@
 
 .page-exit {
   opacity: 0;
-}
-
-h1 {
-  font-size: 48px;
 }

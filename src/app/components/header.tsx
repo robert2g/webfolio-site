@@ -48,6 +48,11 @@ const Header = () => {
                         Skills
                     </Link>
 
+                    <Link href="/blog"
+                          className={`${styles.headerLink} ${pathname === '/blog' ? styles.headerLinkActive : ''}`}>
+                        Blog
+                    </Link>
+
                     <Link href="/contact"
                           className={`${styles.headerLink} ${pathname === '/contact' ? styles.headerLinkActive : ''}`}>
                         Contact

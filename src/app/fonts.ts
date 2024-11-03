@@ -6,10 +6,15 @@ export const ubuntuSans = Ubuntu_Sans({
     display: 'swap',
 });
 
-/* Display Font for flavor */
+/* Display Font for flavoring */
 
 export const cutmark = localFont({
     src: [
+        {
+            path: './fonts/Cutmark-NrDemi.woff2',
+            weight: '600',
+            style: 'normal',
+        },
         {
             path: './fonts/Cutmark-NrBold.woff2',
             weight: '700',
@@ -18,6 +23,11 @@ export const cutmark = localFont({
         {
             path: './fonts/Cutmark-NrXBold.woff2',
             weight: '800',
+            style: 'normal',
+        },
+        {
+            path: './fonts/Cutmark-NrSuper.woff2',
+            weight: '900',
             style: 'normal',
         },
     ],

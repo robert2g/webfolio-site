@@ -1,0 +1,50 @@
+.rankContainer {
+    /*border: 1px solid #19191f;*/
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    align-items: center;
+    gap: 20px;
+}
+
+.tierWrapper {
+    position: relative;
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+}
+
+.tierTitle {
+    position: relative;
+    display: flex;
+    border: 1px solid #19191f;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.textSPlus {
+    color: #00dbff;
+}
+
+.textS {
+    color: #ed2b50;
+}
+
+.textA {
+    color: #8e2fea;
+}
+
+.textB {
+    color: #398aff;
+}
+
+.textC {
+    color: #2fea7a;
+}
+
+.textD {
+    color: #ea722f;
+}
