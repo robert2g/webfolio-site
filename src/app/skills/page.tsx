@@ -30,11 +30,13 @@ export default function SkillsPage() {
 
                     <p>This is the skills page.</p>
 
+                    <p>As a ranking basis, I am comparing my abilities to a general average of other graduate students from my university.</p>
+
                     <div className={skillStyles.rankContainer}>
                         <Image className={skillStyles.tierWrapper} src={splustier} alt={"S+"}/>
                         <h3 className={`${skillStyles.textSPlus} ${skillStyles.tierTitle} 
                             ${weights.regularWeight} ${cutmark.className}`}>
-                                Mastered
+                            Mastered
                         </h3>
                     </div>
 

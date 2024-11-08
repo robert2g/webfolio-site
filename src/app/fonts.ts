@@ -1,7 +1,7 @@
-import { Ubuntu_Sans } from 'next/font/google'
+import { Open_Sans } from 'next/font/google'
 import localFont from "next/font/local";
 /* Ubuntu Sans Variable Font - through Google font API */
-export const ubuntuSans = Ubuntu_Sans({
+export const ubuntuSans = Open_Sans({
     subsets: ['latin'],
     display: 'swap',
 });

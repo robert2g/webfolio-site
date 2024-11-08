@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 90 90">
   <defs>
     <style>
       .cls-1 {
@@ -18,29 +18,29 @@
         fill: url(#linear-gradient);
       }
     </style>
-    <linearGradient id="linear-gradient" x1="0" y1="79" x2="58" y2="21" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#00bdff"/>
-      <stop offset=".5" stop-color="#66dfff"/>
-      <stop offset="1" stop-color="#00bdff"/>
+    <linearGradient id="linear-gradient" x1=".3" y1="76.5" x2="63.2" y2="13.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff8aba"/>
+      <stop offset=".5" stop-color="#ff618b"/>
+      <stop offset="1" stop-color="#ff8aba"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-2" x1="0" y1="79" x2="58" y2="21" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#66dfff"/>
-      <stop offset=".5" stop-color="#00bdff"/>
-      <stop offset="1" stop-color="#66dfff"/>
+    <linearGradient id="linear-gradient-2" x1=".3" y1="76.5" x2="63.2" y2="13.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff618b"/>
+      <stop offset=".5" stop-color="#ff8aba"/>
+      <stop offset="1" stop-color="#ff618b"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-3" x1="67.3" y1="61.6" x2="90.4" y2="38.4" xlink:href="#linear-gradient"/>
-    <linearGradient id="linear-gradient-4" x1="67.3" y1="61.6" x2="90.4" y2="38.4" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-3" x1="71.5" y1="33.3" x2="86.1" y2="18.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="71.5" y1="33.3" x2="86.1" y2="18.7" xlink:href="#linear-gradient-2"/>
   </defs>
   <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
   <g>
     <g id="Layer_1">
       <g>
-        <polygon class="cls-4" points="45 92 13 92 3.6 82.5 3.6 64 26.6 64 26.6 74.5 27.6 75.4 30.3 75.4 31.3 74.5 31.3 64.2 30.7 63.2 8.4 50.6 3.6 43.9 3.6 17.5 13 8 45 8 54.4 17.5 54.4 35.4 31.4 35.4 31.4 25.5 30.4 24.6 27.7 24.6 26.7 25.5 26.7 35.6 27.3 36.7 49.6 49.3 54.4 56.1 54.4 82.5 45 92"/>
-        <path class="cls-1" d="M43.9,10.5l8,8v14.3h-18v-8.4l-.7-.7-1-1-.7-.7h-4.8l-.7.7-1,1-.7.7v11.8l.3.6.6,1.1.3.6.6.3,21.8,12.3,4,5.7v24.6l-8,8H14.1l-8-8v-14.9h18v9l.7.7,1,1,.7.7h4.8l.7-.7,1-1,.7-.7v-12.1l-.4-.6-.6-1-.3-.5-.6-.3-21.8-12.3-4-5.6v-24.6l8-8h29.8M45,8H13L3.6,17.5v26.4l4.8,6.7,22.3,12.6.6,1v10.3l-1,1h-2.8l-1-1v-10.4H3.6v18.5l9.5,9.5h31.9l9.5-9.5v-26.4l-4.8-6.8-22.3-12.6-.6-1.1v-10.1l1-1h2.8l1,1v9.8h23v-17.9l-9.5-9.5h0Z"/>
+        <path class="cls-4" d="M52.7,87H10.8L.5,76.7v-17h22.9v8.4l1.6,1.7h13.4l1.7-1.7v-7.8l-1.1-1.4L5.4,45.1.5,39.2V13.3L10.8,3h41.9l10.3,10.3v16.4h-22.9v-7.8l-1.6-1.7h-13.4l-1.6,1.7v7.6l1.1,1.3,33.5,13.7,4.9,5.9v26.3l-10.3,10.3Z"/>
+        <path class="cls-1" d="M51.5,6l8.6,8.6v12.2h-16.9v-6l-.8-.9-1.6-1.7-.9-1h-16.1l-.9,1-1.6,1.7-.8.9v9.8l.7.8,1.1,1.3.5.6.7.3,32.8,13.4,3.7,4.5v23.9l-8.6,8.6H12.1l-8.6-8.6v-12.8h16.9v6.6l.8.9,1.6,1.7.9,1h16l.9-.9,1.7-1.7.9-.9v-10l-.6-.8-1.1-1.4-.5-.7-.8-.3L7.2,42.6l-3.7-4.5V14.6L12.1,6h39.4M52.7,3H10.8L.5,13.3v25.9l4.9,5.9,33.6,13.7,1.1,1.4v7.8l-1.7,1.7h-13.4l-1.6-1.7v-8.4H.5v17l10.3,10.3h41.9l10.3-10.3v-26.3l-4.9-5.9-33.5-13.7-1.1-1.3v-7.6l1.6-1.7h13.4l1.6,1.7v7.8h22.9V13.3l-10.3-10.3h0Z"/>
       </g>
       <g>
-        <polygon class="cls-3" points="84.4 67.6 73.3 67.6 73.3 55.6 61.3 55.6 61.3 44.5 73.3 44.5 73.3 32.4 84.4 32.4 84.4 44.5 96.4 44.5 96.4 55.6 84.4 55.6 84.4 67.6"/>
-        <path class="cls-2" d="M81.9,34.9v12.1h12v6h-12v12h-6.2v-12h-12v-6h12v-12.1h6.2M84.4,32.4h-11.2v12.1h-12v11h12v12h11.2v-12h12v-11h-12v-12.1h0Z"/>
+        <path class="cls-3" d="M82.6,36.8h-7.7v-7h-6.9v-7.6h6.9v-7h7.7v7h6.9v7.6h-6.9v7Z"/>
+        <path class="cls-2" d="M79.6,18.2v7h6.9v1.6h-6.9v7h-1.7v-7h-6.9v-1.6h6.9v-7h1.7M82.6,15.2h-7.7v7h-6.9v7.6h6.9v7h7.7v-7h6.9v-7.6h-6.9v-7h0Z"/>
       </g>
     </g>
   </g>

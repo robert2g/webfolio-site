@@ -27,7 +27,7 @@ const Header = () => {
                     </div>
 
                     <div className={styles.robWordmark}>
-                        <Image src="/wordmark.svg" alt="Logo" width={124} height={25}
+                        <Image src="/wordmark.svg" alt="Logo" width={124} height={28}
                                style={{backgroundColor: 'transparent'}}/>
                     </div>
                 </Link>

@@ -1,11 +1,10 @@
 .rankContainer {
-    /*border: 1px solid #19191f;*/
+    border: 1px solid #19191f;
     display: flex;
     width: fit-content;
     height: fit-content;
-    padding: 5px;
     border-radius: 5px;
-    margin: 10px;
+    margin: 5px;
     align-items: center;
     gap: 20px;
 }
@@ -15,6 +14,7 @@
     display: flex;
     width: 5rem;
     height: 5rem;
+    padding: 5px;
 }
 
 .tierTitle {
@@ -26,25 +26,25 @@
 }
 
 .textSPlus {
-    color: #00dbff;
+    color: #ff8aba;
 }
 
 .textS {
-    color: #ed2b50;
+    color: #d6274c;
 }
 
 .textA {
-    color: #8e2fea;
+    color: #9133ff;
 }
 
 .textB {
-    color: #398aff;
+    color: #5543ff;
 }
 
 .textC {
-    color: #2fea7a;
+    color: #00ff97;
 }
 
 .textD {
-    color: #ea722f;
+    color: #abdbff;
 }

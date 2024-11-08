@@ -13,6 +13,7 @@
     padding: 0 2rem;
     border-bottom: 1px solid #19191f;
     overflow: hidden;
+    z-index: 1000; /* Keep this so that header renders over page content lol */
 }
 
 .container {
@@ -42,7 +43,6 @@
     justify-content: center;
     width: auto;
     background: transparent;
-    z-index: 0;
 }
 
 .navButtons {
